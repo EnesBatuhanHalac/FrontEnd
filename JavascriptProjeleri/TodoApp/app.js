@@ -1,6 +1,5 @@
 const addForm=document.querySelector(".add");
 const ul = document.querySelector(".todos");
-const garbageList=document.querySelectorAll(".delete")
 
 
 
@@ -31,12 +30,11 @@ addForm.addEventListener("submit",e=>{
   }
 });
 
+//Silme İşlemi:
 
-<<<<<<< HEAD
-//Silme İşlemideneme
-=======
-//Silme İşlemii
-
->>>>>>> 8af6cf8d33ea804fe970bf58037494386e759f96
-
-
+ul.addEventListener("click",e=>{
+  if(e.target.classList.contains("delete"))
+  {
+    e.target.parentElement.remove();
+  }
+})
