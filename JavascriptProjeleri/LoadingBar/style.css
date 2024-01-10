@@ -1,0 +1,35 @@
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 400px;
+  text-align: center;
+  position: relative;
+}
+
+.counterFirst {
+  background-color: red;
+  width: 0%;
+  height: 10px;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+}
+.counter {
+  font-size: 40px;
+}
+.counterSecond {
+  background-color: white;
+  width: 100%;
+  position: absolute;
+  height: 10px;
+  border: none;
+  border-radius: 5px;
+}
