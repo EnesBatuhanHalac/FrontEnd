@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+}
+
+.fa-bars {
+  position: fixed;
+  right: 35px;
+  top: 45px;
+  color: coral;
+  cursor: pointer;
+}
+
+.sideBarContainer {
+  background-color: white;
+  position: fixed;
+  width: 500px;
+  height: 100%;
+}
+
+.sideBarHeader {
+  text-align: right;
+  padding: 20px;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.menu-list a {
+  text-decoration: none;
+  color: gray;
+  font-size: 25px;
+  padding: 15px 25px;
+  display: block;
+}
+
+.menu-list a:hover {
+  color: white;
+  background-color: coral;
+  padding-left: 45px;
+}
+
+@media (max-width: 768px) {
+  .sideBarContainer {
+    width: 100%;
+  }
+}
