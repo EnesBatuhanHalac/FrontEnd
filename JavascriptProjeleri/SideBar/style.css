@@ -21,6 +21,8 @@ body {
   position: fixed;
   width: 500px;
   height: 100%;
+  transform: translateX(-100%);
+  transition: 0.5s;
 }
 
 .sideBarHeader {
@@ -42,8 +44,11 @@ body {
   color: white;
   background-color: coral;
   padding-left: 45px;
+  font-weight: bold;
 }
-
+.openMenu {
+  transform: translateX(0px);
+}
 @media (max-width: 768px) {
   .sideBarContainer {
     width: 100%;
