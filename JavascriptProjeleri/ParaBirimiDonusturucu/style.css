@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: silver;
+}
+
+.container {
+  background: palevioletred;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  border-radius: 15px;
+}
+
+.firstSelectContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.select {
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+input {
+  border: none;
+  outline: none;
+  font-size: 20px;
+  width: 70%;
+  background: transparent;
+  color: white;
+  font-weight: bold;
+  text-align: right;
+}
+
+.secondSelectContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.secondSelectValue {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.exchangeRate {
+  margin-top: 30px;
+}

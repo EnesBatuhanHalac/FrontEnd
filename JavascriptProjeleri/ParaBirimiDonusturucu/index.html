@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Döviz Uygulaması</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Döviz Uygulaması</h1>
+      <div class="firstSelectContainer">
+        <select id="firstSelect " name="firstSelect" class="firstSelect select">
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+          <option value="AUD">AUD</option>
+          <option value="CAD">CAD</option>
+          <option value="JPY">JPY</option>
+          <option value="TRY">TRY</option>
+        </select>
+        <input type="number" id="firstSelectValue" class="firstSelectValue" />
+      </div>
+      <div class="secondSelectContainer">
+        <select
+          name="secondSelect "
+          id="secondSelect"
+          class="secondSelect select"
+        >
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+          <option value="AUD">AUD</option>
+          <option value="CAD">CAD</option>
+          <option value="JPY">JPY</option>
+          <option value="TRY">TRY</option>
+        </select>
+        <span id="secondSelectValue" class="secondSelectValue">19.5</span>
+      </div>
+      <p class="exchangeRate">1 USD = 33 TL</p>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
