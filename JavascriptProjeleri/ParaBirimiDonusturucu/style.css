@@ -2,58 +2,56 @@
   box-sizing: border-box;
 }
 
+.container {
+  background-color: coral;
+  width: 500px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
 body {
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
   margin: 0;
-  background-color: silver;
+  background-color: goldenrod;
 }
 
-.container {
-  background: palevioletred;
-  padding: 20px;
-  text-align: center;
-  color: white;
-  border-radius: 15px;
-}
-
-.firstSelectContainer {
+.firstContainer {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 30px;
-  margin-top: 30px;
+  margin-bottom: 25px;
 }
 
 .select {
-  padding: 8px;
+  padding: 10px;
   border-radius: 10px;
   border: none;
   outline: none;
 }
 
-input {
+#valueInput {
   border: none;
   outline: none;
-  font-size: 20px;
-  width: 70%;
-  background: transparent;
-  color: white;
-  font-weight: bold;
   text-align: right;
+  font-size: 25px;
+  color: white;
+  background-color: transparent;
 }
 
-.secondSelectContainer {
-  display: flex;
-  justify-content: space-between;
-}
-
-.secondSelectValue {
-  font-size: 23px;
+#valueSpan {
+  font-size: 25px;
   font-weight: bold;
 }
 
 .exchangeRate {
-  margin-top: 30px;
+  font-weight: 600;
+  margin-top: 55px;
+}
+
+h1 {
+  margin-bottom: 50px;
 }

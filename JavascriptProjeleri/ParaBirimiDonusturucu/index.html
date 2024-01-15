@@ -8,36 +8,31 @@
   </head>
   <body>
     <div class="container">
-      <h1>Döviz Uygulaması</h1>
-      <div class="firstSelectContainer">
-        <select id="firstSelect " name="firstSelect" class="firstSelect select">
-          <option value="USD">USD</option>
+      <h1>Döviz App</h1>
+      <div class="firstContainer">
+        <select id="firstSelect" class="select">
+          <option value="USD" selected>USD</option>
           <option value="EUR">EUR</option>
           <option value="AUD">AUD</option>
           <option value="CAD">CAD</option>
           <option value="JPY">JPY</option>
           <option value="TRY">TRY</option>
         </select>
-        <input type="number" id="firstSelectValue" class="firstSelectValue" />
+        <input type="number" value="1" min="0" id="valueInput" />
       </div>
-      <div class="secondSelectContainer">
-        <select
-          name="secondSelect "
-          id="secondSelect"
-          class="secondSelect select"
-        >
-          <option value="USD">USD</option>
+      <div class="firstContainer">
+        <select id="secondSelect" class="select">
+          <option value="USD" selected>USD</option>
           <option value="EUR">EUR</option>
           <option value="AUD">AUD</option>
           <option value="CAD">CAD</option>
           <option value="JPY">JPY</option>
-          <option value="TRY">TRY</option>
+          <option value="TRY" selected>TRY</option>
         </select>
-        <span id="secondSelectValue" class="secondSelectValue">19.5</span>
+        <span id="valueSpan"></span>
       </div>
-      <p class="exchangeRate">1 USD = 33 TL</p>
+      <p class="exchangeRate">1 USD = 33.09 TL</p>
     </div>
-
     <script src="app.js"></script>
   </body>
 </html>
