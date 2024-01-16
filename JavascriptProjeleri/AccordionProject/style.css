@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accordionContainer {
+  width: 600px;
+}
+
+.firstAccordion {
+  background-color: thistle;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  color: blue;
+}
+
+button {
+  height: 30px;
+  color: blue;
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  transform: translateY(50%);
+}
+.d-none {
+  display: none;
+}
+
+.paragraphContainer {
+  border-top: 1px solid black;
+  padding-top: 25px;
+}
