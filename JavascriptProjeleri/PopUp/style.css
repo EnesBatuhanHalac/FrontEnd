@@ -34,6 +34,7 @@ button {
   border: none;
   padding: 15px;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 button:hover {
@@ -62,4 +63,5 @@ video {
   font-size: 50px;
   top: 40px;
   right: 40px;
+  cursor: pointer;
 }
