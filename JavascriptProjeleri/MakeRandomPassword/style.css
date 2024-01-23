@@ -53,13 +53,15 @@ button:hover {
 }
 
 .alertContainer {
+  width: 300px;
   position: fixed;
   bottom: 50px;
-  right: 80px;
+  right: 100px;
   background-color: lightslategray;
   color: white;
   font-weight: bold;
   border-radius: 20px;
-  width: 300px;
   text-align: center;
+  transform: translate(400px);
+  transition: 2s;
 }
