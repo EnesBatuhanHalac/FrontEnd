@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 20px;
+  width: 500px;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+form input {
+  width: 70%;
+  background-color: lightskyblue;
+  padding: 8px;
+  border: 1px solid transparent;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+
+form button {
+  width: 30%;
+  background: lightblue;
+  padding: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  border: 1px solid transparent;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.iconContainer {
+  margin-top: 25px;
+}
+
+#derece {
+  font-size: 65px;
+  margin: 20px;
+}
+
+.featuresContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 25px;
+  margin-top: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.features {
+  background-color: mediumseagreen;
+  width: 300px;
+  padding: 15px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d-none {
+  display: none;
+}
